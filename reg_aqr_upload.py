@@ -32,3 +32,5 @@ async def create_upload_file(file: UploadFile = File(...)):
    	print(read_file)
 
    return {"filename": file.filename, "Result": read_file}
+
+#reg_aqr_2023
